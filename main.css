@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(74, 74, 226);
+    justify-content: end;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(74, 74, 226);
+    color: white;
+    align-items: center;
+}
+
+footer p{
+    text-align: end;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='js/main.js' type="module"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="item-menu" href="#">Nosotros</a>
+            <a class="item-menu" href="#">Anuncios</a>
+            <a class="item-menu" href="#">Blog</a>
+            <a class="item-menu" href="#">Contacto</a>
+        </nav>
+    </header>
+    <section id="administracion" class="section">
+        <h1>Administracion</h1>
+        <form id="form-item">
+            <label for="txtTitulo">Titulo</label>
+            <input type="text" id="txtTitulo" name="txtTitulo" placeholder="Titulo">
+            <label id = rdbTransaccion>Transaccion</label>
+            <label for="rdbVenta">Venta</label>
+            <input type="radio" id="rdbVenta" name="rdbTransaccion" class="rdbTransaccion">
+            <label for="rdbAlquiler">Alquiler</label>
+            <input type="radio" id="rdbAlquiler" name="rdbTransaccion" class="rdbTransaccion">
+            <label for="txtDescripcion">Descripcion</label>
+            <input type="text" id="txtDescripcion" name="txtDescripcion" placeholder="Descripcion">
+            <label for="txtPrecio">Precio</label>
+            <input type="text" id="txtPrecio" name="txtPrecio" placeholder="Precio">
+            <input type="text" id="txtPuertas" name="txtPuertas" placeholder="Puertas">
+            <input type="text" id="txtKMs" name="txtKMs" placeholder="KMs">
+            <input type="text" id="txtPotencia" name="txtPotencia" placeholder="Potencia">
+            <button type="submit">Guardar</button>
+        </form>
+        <table id="table-items">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Titulo</th>
+                    <th>Transaccion</th>
+                    <th>Descripcion</th>
+                    <th>Precio</th>
+                    <th>Num_Puertas</th>
+                    <th>Num_KMs</th>
+                    <th>Potencia</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </section>
+    <footer>
+        <nav>
+            <a class="item-menu" href="#nosotros">Nosotros</a>
+            <a class="item-menu" href="#anuncios">Anuncios</a>
+            <a class="item-menu" href="#nuestro-blog">Blog</a>
+            <a class="item-menu" href="#contacto">Contacto</a>
+        </nav>
+        <p id="derechos">Todos los derechos reservados </p>
+    </footer>
+</body>
+</html>
